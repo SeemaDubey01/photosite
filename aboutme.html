@@ -1,12 +1,20 @@
 <html>
-    <head>
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Kiran's Photography is a one stop for checking the portfolio of 
+        photographer and also to contact him for any project">
+        <meta name="keywords" content="Photography, Kiran, Raigarh, Chhattisgarh, celebration, event, photographer">
         <title>Kiran's Photography</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
     <header>
-    <div id="header">
-        <img src="head.jpg"/></div>
+<!--
+        <div id="header">
+        <img src="head.jpg" alt="Kiran's Photography"/></div>
         <div id="menudiv">
             <a class="menu" href="home.html">Home</a>
             <a class="menu" href="aboutme.html">About Me</a>
@@ -14,7 +22,105 @@
             <a class="menu" href="contact.html">Contact</a>
         </div>
     </header>
+ -->
     <!-- contest starts here -->
+    <div class="container" id="header">
+        <header>    
+            <h3>Phenomenal India</h3>
+        </header>
+    </div>
+    
+    <br> 
+    <div class="container">
+        <img class="img-responsive" src="head.jpg"/>
+    </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+        
+        
+            <div class="navbar-header"><span class="navbar-brand">Photography</span>
+                <button type="button" class="navbar-toggle" data-target="#mynav" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="mynav">    
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallary
+                    <span class="caret"></span>
+                </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Diwali</a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Moments</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter search string"/>
+            </div>
+                <button class="btn btn-default">Submit</button>
+            </form>
+            <button class="btn btn-danger navbar-btn navbar-right">Sign Up</button>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a hre="#">Login</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+        <div class="col-md-4 gridbordergrey bg-info text-danger">
+            <b>First</b> ia a very vast country, rich in cultural heritage and breathtaking natural beauty and resources.
+            India is popular for its integrity amongst the rich diversity of people speaking multiple different languages.
+            One can travel within India with any travel segments like luxury stays like palace hotels, or even moderate options 
+            like guesthouses or homestays. This naturally adds to the appeal as one of the possible travel destinations.
+        </div>
+        <div class="col-md-4 gridbordergrey bg-warning">
+            <b>Second</b> ia a very vast country, rich in cultural heritage and breathtaking natural beauty and resources.
+            India is popular for its integrity amongst the rich diversity of people speaking multiple different languages.
+            One can travel within India with any travel segments like luxury stays like palace hotels, or even moderate options 
+            like guesthouses or homestays. This naturally adds to the appeal as one of the possible travel destinations.
+        </div>
+        <div class="col-md-4 gridbordergrey bg-success" >
+            <b>Third</b> ia a very vast country, rich in cultural heritage and breathtaking natural beauty and resources.
+            India is popular for its integrity amongst the rich diversity of people speaking multiple different languages.
+            One can travel within India with any travel segments like luxury stays like palace hotels, or even moderate options 
+            like guesthouses or homestays. This naturally adds to the appeal as one of the possible travel destinations.
+        </div>
+        </div>
+
+        <div class="col-sm-offset-2 col-sm-8">
+            <table class="table table-bordered">
+                <tr>
+                    <td colspan="3"  class="text-center active">Table header</td>
+                </tr>
+                <tr class="danger">
+                    <td>row1-col1</td>
+                    <td>row1-col2</td>
+                    <td>row1-col3</td>
+                </tr>
+                <tr class="success">
+                    <td>row2-col1</td>
+                    <td>row2-col2</td>
+                    <td>row2-col3</td>
+                </tr>
+                <tr>
+                    <td>row3-col1</td>
+                    <td>row3-col2</td>
+                    <td>row3-col3</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>    
+    </div>
     <div id="inprogress">
         <h3>About Me</h3>Welcome to Kiran's Photography page.
         <br/>Till that time check my <a href="https://www.facebook.com/nkantikiran">Facebook</a> page
@@ -22,7 +128,7 @@
     </div>
     <!-- contest ends here -->
     <footer>
-        <a href="https://www.facebook.com/nkantikiran"><image src="images/fb.png"></image></a>
+        <a href="https://www.facebook.com/nkantikiran"><img src="images/fb.png" alt="Facebook"></img></a>
         <span id="copyright">&copy 2020 AmbiHigh</span>
     </footer>
     </body>
