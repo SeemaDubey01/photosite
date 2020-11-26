@@ -7,37 +7,26 @@
         <meta name="keywords" content="Photography, Kiran, Raigarh, Chhattisgarh, celebration, event, photographer">
         <title>Kiran's Photography</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
     <header>
-<!--
         <div id="header">
         <img src="head.jpg" alt="Kiran's Photography"/></div>
-        <div id="menudiv">
+<!--        <div id="menudiv">
             <a class="menu" href="home.html">Home</a>
             <a class="menu" href="aboutme.html">About Me</a>
             <a class="menu" href="gallary.html">Gallary</a>
             <a class="menu" href="contact.html">Contact</a>
-        </div>
+ -->       </div>
     </header>
- -->
+ 
     <!-- contest starts here -->
-    <div class="container" id="header">
-        <header>    
-            <h3>Phenomenal India</h3>
-        </header>
-    </div>
-    
-    <br> 
-    <div class="container">
-        <img class="img-responsive" src="head.jpg"/>
-    </div>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+    <nav class="navbar navbar-inverse">
         <div class="container-fluid">
-        
-        
             <div class="navbar-header"><span class="navbar-brand">Photography</span>
                 <button type="button" class="navbar-toggle" data-target="#mynav" data-toggle="collapse">
                     <span class="icon-bar"></span>
@@ -47,18 +36,19 @@
             </div>
             <div class="collapse navbar-collapse" id="mynav">    
             <ul class="nav navbar-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallary
+                <li><a data-toggle="tab" class="active" href="home.html">Home</a></li>
+                <li><a data-toggle="tab" href="#">About Me</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Drop-down
                     <span class="caret"></span>
                 </a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Diwali</a></li>
-                        <li><a href="#">Sports</a></li>
-                        <li><a href="#">Moments</a></li>
+                        <li><a data-toggle="tab" href="#">Sports</a></li>
+                        <li><a data-toggle="tab" href="#">Moments</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="gallary.html">Gallary</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
             <form class="navbar-form navbar-left">
                 <div class="form-group">
@@ -128,8 +118,12 @@
     </div>
     <!-- contest ends here -->
     <footer>
-        <a href="https://www.facebook.com/nkantikiran"><img src="images/fb.png" alt="Facebook"></img></a>
-        <span id="copyright">&copy 2020 AmbiHigh</span>
+        <a href="https://www.facebook.com/nkantikiran" target="new"><image src="images/fb.png"></image></a>
+        <a href="#"><image src="images/twitter.png" target="new"></image></a>
+        <a href="#"><image src="images/instagram.png" target="new"></image></a>
+        <a href="#"><image src="images/youtube.png" target="new"></image></a>
+        <span id="copyright">&copy 2020, all right reseverd. Powered by <a href="http://www.dequiz.co.in"
+            target="new">DeQuiz</a></span>
     </footer>
     </body>
 </html>

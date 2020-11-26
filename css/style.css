@@ -30,6 +30,5 @@ footer{background-color:#021801;
     color: #dfe6de; text-align: right;
 }
 footer img {width: 30px; float: left; margin-left: 10px;}
-#copyright {clear: both; margin: 10px; line-height: 2; } 
-#copyright a {text-decoration:none; color: #dfe6de}
-#copyright a:hover {font-size:1.2em;}
+#copyright {clear: both; margin: 10px; margin-right: 20px; line-height: 2; } 
+#copyright a {text-decoration:none; color: #5076f5f5;}
