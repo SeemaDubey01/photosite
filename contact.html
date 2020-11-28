@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
     </head>
     <body>
         <header>
@@ -36,12 +37,56 @@
             </div>
         </nav>
     <!-- contest starts here -->
-    <div id="contact">
-        <div>
-        <p><img src="images/email.png"><span>nkantikirankuwait@gmail.com</span></p>
-        <p><img src="images/web.png"><span>www.kiransphotography.co.in</span></p>
-        <p><img src="images/call.png"><span>+91 7580 76745</span></p>
-        <p><img src="images/wa.png"><span>+91 7580 76745</span></p>
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-sm-5">
+            <div id="contact" class="col-sm-12">
+                <strong>Contact us</strong><p/>
+                <div>
+                <div class="col-sm-2"><img src="images/email.png"></div>
+                <div class="col-sm-10 contact-text">nkantikirankuwait@gmail.com</div>
+                <div class="col-sm-2"><img src="images/web.png"></div>
+                <div class="col-sm-10 contact-text">www.kiransphotography.co.in</div>
+                <div class="col-sm-2"><img src="images/call.png"></div>
+                <div class="col-sm-10 contact-text">+91 7580 76745</div>
+                <div class="col-sm-2"><img src="images/wa.png"></div>
+                <div class="col-sm-10 contact-text">+91 7580 76745</div>
+                </div>
+            </div>
+            <div id="contact" class="col-sm-12">
+                <strong>Find us</strong><p/>
+                <div id=map>
+                    <iframe 
+                    src="https://maps.google.com/maps?q=satti%20gudi%20mandir%20raigarh&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div  id="contact">
+            <strong>Submit your query here</strong><p/>
+            <div style="height: 410px;"><form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="fname">Name</label>
+                    <input class="form-control col-sm-8" type="text" id="fname" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">Email</label>
+                    <input class="form-control col-sm-8" type="email" id="email" placeholder="Enter your email address">
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="phone">Phone</label>
+                    <input class="form-control col-sm-8" type="text" id="phone" placeholder="Enter your phone numer">
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-5" for="query">Query</label>
+                    <textarea class="form-control col-sm-8" id="query" rows="4" placeholder="How can we help you?"></textarea>
+                </div>
+                <div class="col-xs-offset-2 col-xs-3"><button type="submit">Submit</button></div>
+                <div class="col-xs-3"><button type="reset">Reset</button></div>
+            </form>
+            </div>
+        </div></div>
         </div>
     </div>
     <!-- contest ends here -->
